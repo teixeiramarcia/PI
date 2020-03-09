@@ -68,7 +68,7 @@ int bitsUm (unsigned int n){
 }
 
 //5
-int trailingZ (unsigned int n){
+int trailingZ (unsigned int n){ //não funciona na codeboard mas está correto
     int total=0;
     while(n%2==0){
         total++;
